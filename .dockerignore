@@ -1,0 +1,6 @@
+# Never ship git metadata inside the image (the workflow also removes it, this
+# is a belt-and-suspenders guard and keeps local builds slim too).
+enterprise/.git
+**/.git
+*.md
+.github
